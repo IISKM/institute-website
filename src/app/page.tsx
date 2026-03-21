@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, CheckCircle2, Mail, Phone, Users } from "lucide-react";
+import Image from "next/image";
 
 const stats = [
   { value: "3500+", label: "Members" },
@@ -58,10 +59,14 @@ export default function Home() {
     <div className="bg-[var(--bg)] text-[var(--text-main)]">
       <header className="sticky top-0 z-30 border-b border-[var(--line)] bg-[color:rgba(247,244,237,0.86)] backdrop-blur-sm">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-          <div>
+          {/* <div>
             <p className="text-xs tracking-[0.24em] text-[var(--text-muted)]">PAN AFRICAN INSTITUTE</p>
             <p className="font-display text-lg leading-none sm:text-xl">Entrepreneurship & Community Development</p>
+          </div> */}
+          <div className="">
+            <Image src="/logo-black.png" alt="PAIECD Logo" width={700} height={200} className="object-contain h-16 w-auto" />
           </div>
+
           <nav className="hidden items-center gap-8 text-sm font-medium md:flex">
             <a href="#about" className="nav-link">
               About
