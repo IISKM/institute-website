@@ -13,7 +13,7 @@ const display = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "IISKM",
+  title: "Institute of Information, Information Studies and Knowledge Management",
   description: "Institute of Information, Information Studies and Knowledge Management",
 };
 
