@@ -13,8 +13,8 @@ const display = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Pan African Institute",
-  description: "Pan African Institute for Entrepreneurship and Community Development homepage experience.",
+  title: "IISKM",
+  description: "Institute of Information, Information Studies and Knowledge Management",
 };
 
 export default function RootLayout({
